@@ -1,12 +1,26 @@
 {
   "name": "unit_test_test",
   "version": "1.0.0",
-  "description": "",
+  "description": "With this project I want to learn about unit testing and CI integration with GitHub.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Jordy Ubink",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordy-u/unit_test_test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jordy-u/unit_test_test/issues"
+  },
+  "homepage": "https://github.com/jordy-u/unit_test_test#readme",
+  "devDependencies": {
+    "karma": "^5.0.5",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-cli": "^2.0.0",
+    "karma-jasmine": "^3.1.1"
+  }
 }
