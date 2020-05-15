@@ -4,7 +4,7 @@
   "description": "With this project I want to learn about unit testing and CI integration with GitHub.",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start --single-run"
   },
   "keywords": [],
   "author": "Jordy Ubink",
