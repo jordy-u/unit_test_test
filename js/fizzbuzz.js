@@ -5,8 +5,8 @@
 function getFizzBuzzStringByIndex(index) {
     let fizzBuzzString = "";
 
-    if (index % 3 === 0) fizzBuzzString += "Fizz";
-    if (index % 5 === 0) fizzBuzzString += "Buzz";
+    if (index % 6 === 0) fizzBuzzString += "Fizz";
+    if (index % 10 === 0) fizzBuzzString += "Buzz";
 
     if (fizzBuzzString === "") fizzBuzzString = index.toString();
 
