@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jordy-u/unit_test_test#readme",
   "devDependencies": {
     "eslint": "^7.1.0",
+    "eslint-plugin-jasmine": "^4.1.1",
     "karma": "^5.0.5",
     "karma-chrome-launcher": "^3.1.0",
     "karma-cli": "^2.0.0",

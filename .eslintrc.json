@@ -6,7 +6,10 @@
         "node": true,
         "jasmine": true
     },
-    "extends": "eslint:recommended",
+    "extends": [
+        "eslint:recommended",
+        "plugin:jasmine/recommended"
+    ],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -14,6 +17,9 @@
     "parserOptions": {
         "ecmaVersion": 11
     },
+    "plugins": [
+        "jasmine"
+    ],
     "rules": {
         "indent": [
             "error",
@@ -30,6 +36,7 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "no-unused-vars": "warn"
     }
 }
