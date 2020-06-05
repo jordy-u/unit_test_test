@@ -4,12 +4,12 @@
  * @return {string} The FizzBuzz string.
  */
 function getFizzBuzzStringByIndex(index) {
-    let fizzBuzzString = "";
+	let fizzBuzzString = "";
 
-    if (index % 3 === 0) fizzBuzzString += "Fizz";
-    if (index % 5 === 0) fizzBuzzString += "Buzz";
+	if (index % 3 === 0) fizzBuzzString += "Fizz";
+	if (index % 5 === 0) fizzBuzzString += "Buzz";
 
-    if (fizzBuzzString === "") fizzBuzzString = index.toString();
+	if (fizzBuzzString === "") fizzBuzzString = index.toString();
 
-    return fizzBuzzString;
+	return fizzBuzzString;
 }
