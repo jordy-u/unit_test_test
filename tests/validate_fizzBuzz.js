@@ -7,7 +7,7 @@ describe("The FizzBuzz validator", function () {
 		describe("Check response for values not devideable by 3 and 5", function () {
 
 			it("should return '1' if the index is 1", function () {
-				expect(getFizzBuzzStringByIndex(1)).toBe("1");
+				expect(getFizzBuzzStringByIndex(1)).toBe("2");
 			});
 
 			it("should return '77' if the index is 77", function () {
@@ -29,7 +29,7 @@ describe("The FizzBuzz validator", function () {
 		describe("Check response for values devideable by 5 but not by 5", function () {
 
 			it("should return 'Buzz' if the index is 5", function () {
-				expect(getFizzBuzzStringByIndex(5)).toBe("Buzz");
+				expect(getFizzBuzzStringByIndex(5)).toBe("Buz");
 			});
 
 			it("should return 'Buzz' if the index is 40", function () {
