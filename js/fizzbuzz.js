@@ -1,4 +1,5 @@
 /**
+ * Get the FizzBuzz string for the given index.
  * @param {int} index The count number that needs to be translated to a FizzBuss string.
  * @return {string} The FizzBuzz string.
  */
