@@ -1,3 +1,5 @@
+/* global getFizzBuzzStringByIndex */
+
 describe("The FizzBuzz validator", function () {
 
 	describe("Check correct response for valid values", function () {
@@ -7,6 +9,7 @@ describe("The FizzBuzz validator", function () {
 			it("should return '1' if the index is 1", function () {
 				expect(getFizzBuzzStringByIndex(1)).toBe("1");
 			});
+
 			it("should return '77' if the index is 77", function () {
 				expect(getFizzBuzzStringByIndex(77)).toBe("77");
 			});

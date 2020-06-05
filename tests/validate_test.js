@@ -1,3 +1,4 @@
+/* global checkEmpty checkContainsSpaces */
 //Jasmine = Behavour Driven Design
 
 describe("The name validator", function() {
@@ -5,6 +6,7 @@ describe("The name validator", function() {
 	describe("Checks for empty string", function() {
 
 		it("should return true when the string is empty", function () {
+			// eslint-disable-global no-undef
 			expect(checkEmpty("     ")).toBe(true);
 
 		});
