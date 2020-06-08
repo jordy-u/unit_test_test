@@ -26,7 +26,7 @@ For exmaple: unused variables/functions, spaces instead of tabs, strings with do
 Check this link out how to do it: https://eslint.org/docs/user-guide/getting-started
 Basicly, you run the setup as follows:
 
-Install ESLint using npm. Install is locally, not globally (I think that is what `--save-dev` means.)
+Install ESLint using npm. (by using `--save-dev` the dependency you install will be set under `devDependencies` in `package.json`. This means that these modules are only used for development and are not used when deplying the application.)
 ```
 npm install eslint --save-dev
 ```
